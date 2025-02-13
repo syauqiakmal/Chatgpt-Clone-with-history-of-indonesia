@@ -48,3 +48,60 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+🚀 Features
+✅ ChatGPT-based AI conversation
+✅ Emotion-driven responses for dynamic storytelling
+✅ Support for Indonesian folklore narratives
+✅ Built with React Native and Expo for cross-platform compatibility
+✅ Secure API handling and environment variables
+
+📌 Getting Started
+1️⃣ Clone the Repository
+sh
+Copy
+Edit
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+2️⃣ Install Dependencies
+Make sure you have Node.js, Expo CLI, and Yarn installed.
+
+sh
+Copy
+Edit
+npm install -g expo-cli
+yarn install
+3️⃣ Set Up Environment Variables
+Create a .env file in the root directory and add your OpenAI API Key (never hardcode secrets).
+
+sh
+Copy
+Edit
+OPENAI_API_KEY=your_api_key_here
+Add .env to .gitignore to prevent exposing sensitive data.
+
+4️⃣ Start the Expo Development Server
+sh
+Copy
+Edit
+expo start
+Scan the QR code with Expo Go (for iOS/Android) or run it on an emulator.
+
+🔧 Project Structure
+bash
+Copy
+Edit
+📂 your-repo
+ ┣ 📂 app
+ ┃ ┣ 📜 index.tsx      # Main entry point
+ ┃ ┣ 📂 components     # UI components
+ ┃ ┗ 📂 screens        # Chat and Storytelling screens
+ ┣ 📜 .env.example     # Example environment variables
+ ┣ 📜 package.json     # Project dependencies
+ ┗ 📜 README.md        # Project documentation
+🔥 Contributing
+Fork the repository
+Create a new branch (git checkout -b feature-branch)
+Commit your changes (git commit -m "Add new feature")
+Push to the branch (git push origin feature-branch)
+Open a pull request
